@@ -1,27 +1,17 @@
 class Dog
  
-  def initialize(name)
-    @name = name
-    
-  end
- 
-  def name=(name)
-   name =name.split
-    @name = name
+  def name = dog_name
+    @name = dog_name
   end
  
   def name
-    "#{@name}".strip
+    @name
   end
  
-end
-def initialize (bread)
-  @bread=bread
+  def breed (dog_breed)
+  @bread=dog_bread
 end 
-def bread= (bread)
-  @bread=bread.split
-  @bread=bread
+def breed
+  @breed
 end
-def bread
-  "#{@bread}".strip
 end
