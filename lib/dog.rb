@@ -23,5 +23,5 @@ def bread= (bread)
   @bread=bread
 end
 def bread
-  "#{@bread}"
+  "#{@bread}".strip
 end
