@@ -16,3 +16,13 @@ class Person
   end
  
 end
+def initialize (job)
+  @job=job
+end 
+def job= (job)
+  @job=job.split
+  @job=job
+end
+defjob
+  "#{@job}".strip
+end
